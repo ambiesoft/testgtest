@@ -1,17 +1,5 @@
 #include "gtest/gtest.h"
 
-
-int main()
-{
-	testing::InitGoogleTest(&__argc, __argv);
-	RUN_ALL_TESTS();
-}
-
-TEST(FileOperationTest, MoveFile) {
-	EXPECT_EQ(1, 1);
-}
-
-
 class FTest : public ::testing::Test {
 public:
 	static int si_;
